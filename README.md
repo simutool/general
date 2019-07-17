@@ -1,10 +1,27 @@
-This repo serves as the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of software.
+This is the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of software published under the [simutool github organization](https://github.com/simutool).
+
+## In a nutshell
+
+- This is a data management tool. 
+- Intended to be useful on an *organization-wide scale* and a cross-organizational setting.
+- The origanization-wide data management problem is also a Knowledge Management problem.
+- Its primitives are a (1) *dataset* (a logical unit of data) and (2) *document* (file, unstructured blob).
+
+- **We add a semantic layer describing all these data primitives.**
+- **We embedd these descriptions within the larger organizational 'knowledge base' (which is in turn a description of all the notable activities, agents, resources out there).**
+
+- It is a work in progress (meaning its vision has not been completely implemented yet).
+- This work views the p
+ 
+
+The goal of the KMS is to do data-centric knowledge management. knowledge management
+
+
+![Conmponents](components.png)
 
 ## The Science
 
-This is an R&D project, meaning its focus is on distilling and proposing answers to interesting and not clearly understood problems and establish an understanding for others to learn from. Its intended audience is the scientist-developer hybrids, if such a thing exists!
-
-The starting goal of this project is to propose a system design for *facilitating knowledge transfer across the different activities of digital manufacturing* and other similar domains. The work is divided into two parts: a  **(meta)data model** and a **Knowledge Management process**.
+The goal of this project is to propose a system design for *facilitating knowledge transfer across the different activities of digital manufacturing* and other similar domains. The work is divided into two parts: a  **(meta)data model** and a **Knowledge Management process**.
 
 *  **The (Metadata) Model**: *A thin semantic graph model + a domain model that drives various parts of the system*. We start with a basic (property) graph database model; nodes with simple properties and named relations across nodes. We then develop a software component to create a thin semantic layer of types and subtypes, and controlled vocabularies to our original model. Since we built it we add other minor functionalities to model that we see as useful. We also develop a domain model to go along with the system.
 *  **The Process**: A system design for the *capture*, *creation*, *sharing*, *dissemination*, *acquiring*, and *application* of (meta)data in the above model.
