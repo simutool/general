@@ -4,12 +4,16 @@ This is the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of soft
 
 - This is a data management tool. 
 - Intended to be useful on an *organization-wide scale* and a cross-organizational setting.
-- The origanization-wide data management problem is also a knowledge management problem (at least to us).
-- Its primitives are (1) a *dataset* (a logical unit of data) and (2) a *document* (file, unstructured blob).
+- The origanization-wide data management problem is also a knowledge management problem (at least to us). Hence what we do can be thought of as both:
+    -  Data-centric knowledge management
+    -  Knowledge-centric data management
+- We only have two primitives:
+    - A *dataset* (a logical unit of data), and
+    - A *document* (file, unstructured blob).
 
 - **We achieve our goal in two steps:**
-    1.  **Add a semantic layer describing all the data primitives.**
-    2.  **Embedd these descriptions within the larger organizational 'knowledge base' (which is in turn a description of activities, agents, resources out there).**
+    -  **Add a semantic layer describing all the data primitives.**
+    -  **Embedd these descriptions within the larger organizational 'knowledge base' (which is in turn a description of activities, agents, resources out there).**
 
 - It is a work in progress (meaning its vision has not been completely implemented yet).
 - This work views the p
