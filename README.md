@@ -8,19 +8,14 @@ This is the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of soft
     -  Data-centric knowledge management
     -  Knowledge-centric data management
 - We only have two primitives:
-    - A *dataset* (a logical unit of data), and
-    - A *document* (file, unstructured blob).
+    - A *dataset* (structured *logical unit* of data)
+    - A *document* (unstructured *logical unit* of data)
 
 - **We achieve our goal in two steps:**
-    -  **Add a semantic layer describing all the data primitives.**
-    -  **Embedd these descriptions within the larger organizational 'knowledge base' (which is in turn a description of activities, agents, resources out there).**
+    -  **Add a semantic layer describing all the data primitives**
+    -  **Embedd these descriptions within the larger organizational 'knowledge base' context (which is in turn a description of relevant activities, agents, resources out there)**
 
-- It is a work in progress (meaning its vision has not been completely implemented yet).
-- This work views the p
- 
-
-The goal of the KMS is to do data-centric knowledge management. knowledge management
-
+- This is a work in progress (meaning its vision has not been completely implemented yet).
 
 ![Conmponents](components.png)
 
@@ -32,51 +27,6 @@ The goal of this project is to propose a system design for *facilitating knowled
 *  **The Process**: A system design for the *capture*, *creation*, *sharing*, *dissemination*, *acquiring*, and *application* of (meta)data in the above model.
 
 Its motivating domain was that of [digital manufacturing](https://cordis.europa.eu/project/rcn/198371), where many types of digital resources (sensor data, simulation data, CAD/CAM etc.) and information about them is being produced and consumed on a day to day basis. But we have done our best to make it generic enough to work on [other](https://www.uni-bamberg.de/en/mobi/research/futureiot/), [domains](https://www.uni-bamberg.de/mobi/forschung/living-lab-bamberg/informationen-zur-datenerhebung/).
-
-
-# Knowledge  Graph Service and its Web Application
-
-Central unit of the SKM Platform, this project contains two modules:
-
-* The *Knowledge Graph Service (kgservice), and its API interface*: Which is the semantic metadata store at the heart of the SKM Platform.
-* The *Web Application* for administration and web access to the contents of the Knowledge Graph. 
-* The File server.
-
-
-## How to install (Debian)
-
-Get web2py source and clone this repo
-
-```shell
-foo@bar:~$ mkdir /home/www-data
-foo@bar:~$ cd /home/www-data
-foo@bar:~$ wget https://mdipierro.pythonanywhere.com/examples/static/web2py_src.zip
-foo@bar:~$ unzip web2py_src.zip
-foo@bar:~$ rm web2py_src.zip
-foo@bar:~$ cd web2py/applications
-foo@bar:~$ git clone https://...../simutool/simutool_kms.git
-foo@bar:~$ cp simutool_kms/private/appconfig.ini_template  simutool_kms/private/appconfig.ini 
-```
-
-Install pip and the required libraries
-
-```shell
-foo@bar:~$ apt-get install python-pip -y
-foo@bar:~$ python -m pip install --upgrade pip
-foo@bar:~$ cd /home/www-data/web2py/applications/simutool_kms
-foo@bar:~$ pip install -r requirements.txt
-```
-
-Run web2py
-
-```shell
-foo@bar:~$ cd /home/www-data/web2py/
-foo@bar:~$ python web2py.py --password="[select_a_password]"
-```
-
-You can access the the application at http://127.0.0.1:8000/simutool_kms/default/index
-
-The first user login credentials (admin) can be found in `/home/www-data/web2py/applications/simutool_kms/private/appconfig.ini` under `admin_email = XXXX`, `admin_pass = YYYYYY`
 
 
 ## Project Background
