@@ -9,7 +9,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 - The organization-wide data management problem is also a knowledge management problem. Hence this work is both:
     -  Data-centric knowledge management
     -  Knowledge-centric data management
-- We have two primitives (*):
+- From a data management perspective, we have **two primitives** (*) :
     - A *Dataset* (structured *logical unit* of data)
     - A *Document* (unstructured *logical unit* of data)
 
