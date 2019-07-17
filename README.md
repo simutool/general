@@ -6,7 +6,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 
 - This is a data management tool. 
 - It is intended to be useful on an *organization-wide scale* and a cross-organizational scale.
-- The origanization-wide data management problem is also a knowledge management problem (at least to us). Hence what we do can be thought of as both:
+- The organization-wide data management problem is also a knowledge management problem (at least to us). Hence what we do can be thought of as both:
     -  Data-centric knowledge management
     -  Knowledge-centric data management
 - We only have two primitives (insofar as data management is concerned):
@@ -15,7 +15,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 
 - We achieve our goal in two steps:
     1.  Propose a simple language to *talk about* (*describe*) Datasets and Documents (i.e. semantic metadata model)
-    2.  Embedd these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of relevant activities, agents, resources)
+    2.  Embed these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of relevant activities, agents, resources)
 
 ## The Science
 
@@ -26,15 +26,15 @@ The goal of this project is to propose a system design for *facilitating knowled
 
 Its motivating domain was that of [digital manufacturing](https://cordis.europa.eu/project/rcn/198371), where many types of digital resources (sensor data, simulation data, CAD/CAM etc.) and information about them is being produced and consumed on a day to day basis. But we have done our best to make it generic enough to work on [other](https://www.uni-bamberg.de/en/mobi/research/futureiot/), [domains](https://www.uni-bamberg.de/mobi/forschung/living-lab-bamberg/informationen-zur-datenerhebung/).
 
-## The Architechure
+## The Architecture
 
 ![Conmponents](components.png)
 
 ## Project Background
 
-This project serves as the core of the Knolwedge Management System designed and developed for the [SIMUTOOL EC Project](https://cordis.europa.eu/project/rcn/198371). It was developed by the [Chair of Mobile Software Systems (MOBI)](https://www.uni-bamberg.de/en/mobi/) in the [University of Bamberg](https://www.uni-bamberg.de). 
+This project was developed under the [SIMUTOOL EC Project](https://cordis.europa.eu/project/rcn/198371). It was developed by the [Chair of Mobile Software Systems (MOBI)](https://www.uni-bamberg.de/en/mobi/) in the [University of Bamberg](https://www.uni-bamberg.de). 
 
-This project is the result of the labour of many people under a common goal:
+This project is the result of the labor of many people under a common goal:
 
 * Daniela Nicklas - *Lead*
 * Nasr Kasrin - *Product Owner | Software Architecture*
