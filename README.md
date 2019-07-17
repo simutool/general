@@ -6,7 +6,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 
 - This is a data management tool. 
 - It is intended to be useful on an *organization-wide scale* and a cross-organizational scale.
-- The organization-wide data management problem is also a knowledge management problem (at least to us). Hence what we do can be thought of as both:
+- The organization-wide data management problem is also a knowledge management problem. Hence this work is both:
     -  Data-centric knowledge management
     -  Knowledge-centric data management
 - We only have two primitives (insofar as data management is concerned):
@@ -15,7 +15,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 
 - We achieve our goal in two steps:
     1.  Propose a simple language to *talk about* (*describe*) Datasets and Documents (i.e. semantic metadata model)
-    2.  Embed these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of relevant activities, agents, resources)
+    2.  Embed these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of activities, agents, resources)
 
 ## The Science
 
