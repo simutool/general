@@ -17,7 +17,7 @@ This is the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of soft
 
 - This is a work in progress (meaning its vision has not been completely implemented yet).
 
-![Conmponents](components.png)
+
 
 ## The Science
 
@@ -28,6 +28,9 @@ The goal of this project is to propose a system design for *facilitating knowled
 
 Its motivating domain was that of [digital manufacturing](https://cordis.europa.eu/project/rcn/198371), where many types of digital resources (sensor data, simulation data, CAD/CAM etc.) and information about them is being produced and consumed on a day to day basis. But we have done our best to make it generic enough to work on [other](https://www.uni-bamberg.de/en/mobi/research/futureiot/), [domains](https://www.uni-bamberg.de/mobi/forschung/living-lab-bamberg/informationen-zur-datenerhebung/).
 
+## The Architechure
+
+![Conmponents](components.png)
 
 ## Project Background
 
