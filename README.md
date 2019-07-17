@@ -2,7 +2,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 - Project overview (in a nutshell, the science, the architecture, project background), and
 - A suite deployment unit using Docker along with instructions that can help you deploy the complete back-end of the suite in a short time and with minimal effort.
 
-# Project Overview
+# Overview
 
 - This is a data management tool. 
 - It is intended to be useful on an *organization-wide scale* and a cross-organizational scale.
@@ -47,4 +47,4 @@ This project is the result of the labour of many people under a common goal:
 * Harshit Gupta - *Development on an early prototype of the Automated File Uploader and others*
 
 
-# Suite Deployment
+# Deployment
