@@ -1,11 +1,11 @@
 This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of software published under the [simutool github organization](https://github.com/simutool). It includes:
 - A high-level overview of the project (in a nutshell, the science, the architecture, project background), and
-- a simple *Infrastructure as Code* unit using native Docker that can help you deploy the complete back-end of the suite in a short time and with minimal effort.
+- a simple *Infrastructure as Code* unit using native Docker along with instructions that can help you deploy the complete back-end of the suite in a short time and with minimal effort.
 
 ## In a nutshell
 
 - This is a data management tool. 
-- Intended to be useful on an *organization-wide scale* and a cross-organizational scale.
+- It is intended to be useful on an *organization-wide scale* and a cross-organizational scale.
 - The origanization-wide data management problem is also a knowledge management problem (at least to us). Hence what we do can be thought of as both:
     -  Data-centric knowledge management
     -  Knowledge-centric data management
@@ -17,8 +17,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
     1.  Propose a simple language to *talk about* (*describe*) Datasets and Documents (i.e. semantic metadata model)**
     2.  Embedd these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of relevant activities, agents, resources)
 
-This is a work in progress (meaning its vision has not been completely implemented yet).
-
+**Note:** This is still a work in progress; meaning its vision has not been completely implemented yet.
 
 
 ## The Science
