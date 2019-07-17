@@ -1,4 +1,4 @@
-This repo hosts the central software unit of the SIMUTOOL Knowledge Management Platform (SKM Platform).
+This repo serves as the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of software.
 
 ## The Science
 
