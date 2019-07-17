@@ -10,12 +10,12 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
     -  Data-centric knowledge management
     -  Knowledge-centric data management
 - We only have two primitives:
-    - A *dataset* (structured *logical unit* of data)
-    - A *document* (unstructured *logical unit* of data)
+    - A *Dataset* (structured *logical unit* of data)
+    - A *Document* (unstructured *logical unit* of data)
 
-- *We achieve our goal in two steps:*
-    -  Propose a simple language to *talk about* (*describe*) datasets and documents (i.e. semantic metadata model)**
-    -  Embedd these descriptions within a larger organizational 'knowledge base' context (which is itself a *description* of relevant activities, agents, resources)
+- We achieve our goal in two steps:
+    1.  Propose a simple language to *talk about* (*describe*) Datasets and Documents (i.e. semantic metadata model)**
+    2.  Embedd these descriptions within a larger organizational 'knowledge base' context (itself composed of *descriptions* of relevant activities, agents, resources)
 
 This is a work in progress (meaning its vision has not been completely implemented yet).
 
