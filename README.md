@@ -1,6 +1,6 @@
 This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of software published under the [simutool github organization](https://github.com/simutool). It includes:
 - Project overview (in a nutshell, the science, the architecture, project background), and
-- A suite deployment unit using Docker along with instructions that can help you deploy the complete back-end of the suite in a short time and with minimal effort.
+- A software deployment unit and instructions on deploying the server-side of the suite with minimal effort.
 
 # Overview
 
