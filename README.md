@@ -15,7 +15,7 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 
 - We achieve our goal in two steps:
     -  Propose a simple language to *talk about* (*describe*) these logical units of data (i.e. semantic metadata model)
-    -  Embed these *descriptions* within a larger organizational 'knowledge base' (itself composed of *descriptions* of activities, agents, resources)
+    -  Embed these *descriptions* within the standard organization-wide knowledge base (KB) (itself composed of *descriptions* of activities, agents, ...etc). Promoting data units into first class citizens of the KB.
 
 (*) How we conceive of these primitives and envision the emergence of more complex structures out of them is an interesting part, but it's beyond the scope of the current iteration of the project.
 
