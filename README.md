@@ -1,4 +1,6 @@
-This is the entry point to the SIMUTOOL Knowledge Management Suite (KMS) of software published under the [simutool github organization](https://github.com/simutool).
+This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of software published under the [simutool github organization](https://github.com/simutool). It includes:
+- A high-level overview of the project (in a nutshell, the science, the architecture, project background), and
+- a simple *Infrastructure as Code* unit using native Docker that can help you deploy the complete back-end of the suite in a short time and with minimal effort.
 
 ## In a nutshell
 
