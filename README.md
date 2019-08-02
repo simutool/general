@@ -2,7 +2,9 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 - Project overview (in a nutshell, the science, the architecture, project background), and
 - A software deployment unit and instructions on deploying the server-side of the suite with minimal effort.
 
-# Overview
+# About
+
+## Abstract
 
 - This is a data management tool. 
 - It is intended to be useful on an *organization-wide scale* and a cross-organizational scale.
@@ -50,3 +52,4 @@ This project is the result of the labor of many people under a common goal:
 
 
 # Deployment
+
