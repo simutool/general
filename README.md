@@ -43,8 +43,8 @@ This project is the result of the labor of many people under a common goal:
 * Daniela Nicklas - *Lead*
 * Nasr Kasrin - *Product Owner | Software Architecture*
 * Adrian Lengenfelder - *Developer | Devops*
-* Maliha Qureshi - *Product owner, semantic web*
-* Simon Steuer - *Product owner, online monitoring*
+* Maliha Qureshi - *Product owner: semantic web*
+* Simon Steuer - *Product owner: online monitoring*
 * Valentyna Voronova - *Developer*
 * Lukas Genßler - *Developer*
 * Katharina Broswik - *UI / Usability Developmer*
