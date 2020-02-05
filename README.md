@@ -42,13 +42,13 @@ This project is the result of the labor of many people under a common goal:
 
 * Daniela Nicklas - *Lead*
 * Nasr Kasrin - *Product Owner | Software Architecture*
-* Adrian Lengenfelder - *Development | Devops*
-* Maliha Qureshi - *Product owner of the first iteration of the semantic web side of the Project*
-* Simon Steuer - *Product owner of the first iteration of the Online Monitoring Tool*
-* Valentyna Voronova - *Development*
-* Lukas Genßler - *Development*
-* Katharina Broswik - *Web UI Development | Usability*
-* Harshit Gupta - *Development on an early prototype of the Automated File Uploader and others*
+* Adrian Lengenfelder - *Developer | Devops*
+* Maliha Qureshi - *Product owner, semantic web*
+* Simon Steuer - *Product owner, online monitoring*
+* Valentyna Voronova - *Developer*
+* Lukas Genßler - *Developer*
+* Katharina Broswik - *UI / Usability Developmer*
+* Harshit Gupta - *Developmer*
 
 
 # Deployment
