@@ -11,15 +11,13 @@ This is the entry repository to the SIMUTOOL Knowledge Management Suite (KMS) of
 - The organization-wide data management problem is also a knowledge management problem. Hence this work is both:
     -  Data-centric knowledge management
     -  Knowledge-centric data management
-- From a data management perspective, we have **two primitives** (*) :
+- From a data management perspective, we have **two primitives**:
     - A *Dataset* (structured *logical unit* of data)
     - A *Document* (unstructured *logical unit* of data)
 
 - We achieve our goal in two steps:
     -  Propose a simple language to *talk about* (*describe*) these logical units of data (i.e. semantic metadata model)
     -  Embed these *descriptions* within the standard organization-wide knowledge base (KB) (itself composed of *descriptions* of activities, agents, ...etc). Promoting data units into first class citizens of the KB.
-
-(*) How we conceive of these primitives and envision the emergence of more complex structures out of them is an interesting part, but it's beyond the scope of the current iteration of the project.
 
 ## The Science
 
@@ -47,7 +45,7 @@ This project is the result of the labor of many people under a common goal:
 * Simon Steuer - *Product owner: online monitoring*
 * Valentyna Voronova - *Developer*
 * Lukas Genßler - *Developer*
-* Katharina Broswik - *UI / Usability Developmer*
+* Katharina Broswik - *UI / Usability Developer*
 * Harshit Gupta - *Developmer*
 
 
